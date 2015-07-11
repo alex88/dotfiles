@@ -37,3 +37,5 @@ export ANDROID_HOME=/usr/local/opt/android-sdk
 if [ -f ~/.zshrc.local ]; then
     source ~/.zshrc.local
 fi
+
+if [ "$TMUX" = "" ]; then tmux; fi
