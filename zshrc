@@ -22,7 +22,7 @@ export LANG=en_US.UTF-8
 
 
 # Rbenv
-export RBENV_ROOT=/usr/local/var/rben
+export RBENV_ROOT=/usr/local/var/rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
 
 # Aws automcoplete

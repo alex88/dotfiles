@@ -2,6 +2,13 @@
   "segments": {
     "right": [
       {
+        "function": "powerline.segments.common.players.spotify_apple_script",
+        "name": "player",
+	"args": {
+	  "format": "{state_symbol} {artist} - {title}"
+	}
+      },
+      {
         "function": "powerline.segments.common.wthr.weather",
         "name": "weather",
         "args": {
@@ -20,16 +27,10 @@
         }
       },
       {
-        "function": "powerline.segments.common.net.network_load"
-      },
-      {
         "function": "powerline.segments.common.net.external_ip"
       },
       {
         "function": "powerline.segments.common.bat.battery"
-      },
-      {
-        "function": "powerline.segments.common.net.hostname"
       }
     ]
   }
